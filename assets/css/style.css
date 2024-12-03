@@ -167,10 +167,10 @@ section{
     background-color: var(--color-light);
 }
 .level-slider{
-    /* width: 100%; */
+    width: 100%;
     img{
         width: 100%;
-        height: 55vh;
+        height: 400px;
     }
     .level-slider-item{
         background-color: white;
@@ -217,8 +217,8 @@ section{
             color: var(--color-secondary);
             transition: all .2s ease-in;
             img{
-                width: 60%;
-                height: 25vh;
+                width: 125px;
+                height: 125px;
             }
         }
         a:hover{
@@ -283,6 +283,26 @@ section{
         & div{
             width: 100%;
             margin-bottom: 10px;
+        }
+    }
+    .level-slider{
+        img{
+            height: 100px;
+        }
+        .level-slider-item{
+            p{
+                font-size: calc(var(--font-size-text)-3px);
+            }
+        }
+    }
+    .star-places{
+        .star-places-body{
+            a{
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
         }
     }
 }
