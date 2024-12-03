@@ -287,8 +287,8 @@ section{
     }
     .level-slider{
         img{
-            width: 75px;
-            height: 75px;
+            width: 40vw;
+            height: 50vh;
         }
         .level-slider-item{
             p{
