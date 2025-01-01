@@ -87,7 +87,7 @@ a{
     position: relative;
     display: flex;
     align-items: center;
-    .search-icon{
+    .icon{
         color: var(--color-primary);
         font-size: var(--font-size-title);
         position: absolute;
