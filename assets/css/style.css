@@ -173,7 +173,6 @@ section{
         padding-right: var(--padding-half);
         .level-slider-item-img{
             width: 100%;
-            height: 400px;
         }
         .level-slider-item-container{
             padding: var(--padding-primary);
@@ -207,7 +206,7 @@ section{
     }
     .star-places-body{
         padding: var(--padding-primary);
-        a{
+        .star-places-link{
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -221,7 +220,7 @@ section{
                 height: 125px;
             }
         }
-        a:hover{
+        .star-places-link:hover{
             background-color: #c1c1c1;
         }
         h4{
@@ -298,10 +297,10 @@ section{
     }
     .star-places{
         .star-places-body{
-            a{
+            .star-places-link{
                 .star-places-img{
-                    width: 25px;
-                    height: 25px;
+                    width: 100px;
+                    height: 100px;
                 }
             }
         }
