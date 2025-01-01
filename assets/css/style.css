@@ -267,7 +267,7 @@ section{
         border: none;
         margin-bottom: var(--size-half);
     }
-    .input-icon{
+    .icon{
         top: var(--size-half);
     }
 }
