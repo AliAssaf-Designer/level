@@ -87,7 +87,7 @@ a{
     position: relative;
     display: flex;
     align-items: center;
-    i{
+    .search-icon{
         color: var(--color-primary);
         font-size: var(--font-size-title);
         position: absolute;
@@ -254,7 +254,7 @@ section{
     width: 100%;
     height: 515px;
     position: relative;
-    video{
+    .level-video{
         width: 100%;
     }
 }
@@ -267,7 +267,7 @@ section{
         border: none;
         margin-bottom: var(--size-half);
     }
-    i{
+    .input-icon{
         top: var(--size-half);
     }
 }
